@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* subjectmanagement.html */
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/* index.html */
+.container1{
+    width: 100%;
+    height: auto;
+}
+.website-header{
+    width: 100%;
+    height: 150px;
+    background-color: #F5F5F5;
+}
+.website-name{
+    width: 100%;
+    height: 100px;
+}
+.website-name__main{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: SF mono;
+}
+.website-name__sub{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: SF mono;
+}
+.user-login{
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+   
+}
+.user-avatar {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+.avatar {
+    font-size: 25px;
+    position: absolute;
+    right: 180px;
+    top: 12px;
+}
+span {
+    font-size: 15px;
+    line-height: 50px;
+    position: absolute;
+    right: 20px;
+    font-family: SF mono;
+}
+.menu-bar{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #fff;
+    background-color: #B1C3FD;
+}
+.menu-bar-down {
+    list-style-type: none;
+    width: 60%;
+    height: 100%;
+    float: left;
+    border-right: 5px solid #000;
+}
+.menu-bar-option {
+    width: 40%;
+    height: 100%;
+    list-style-type: none;
+    float: left;
+}
+.menu-item {
+    display: inline-block;
+    line-height: 50px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.menu-item__link {
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+    font-family: SF mono;
+}
+.menu-item__link:hover {
+    color: tomato;
+}
+.menu-item-right {
+    display: inline-block;
+    line-height: 50px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.menu-item-right__link {
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+    font-family: SF mono;
+}
+.menu-item-right__link:hover {
+    color: tomato;
+}
+.sub-menu{
+    list-style-type: none;
+    width: 350px;
+}
+.sub-link {
+    color: #000;
+    font-family: SF mono;
+}
+.sub-link:link{
+    color: #fff;
+    text-decoration: none;
+}
+.sub-link:hover {
+    color: tomato;
+    text-decoration: none;
+}
+.menu-item-right > .sub-menu {
+    display: none;
+}
+.menu-item-right .sub-menu .sub-link {
+    clear: both;
+}
+.menu-item-right:hover .sub-menu {
+    display: block;
+    position: absolute;
+    left: 1000px;
+    background-color: #AFC2FF;
+    margin: 0;
+}
+.menu-item-right:hover .sub-menu .sub-item .sub-link:link {
+    display: block;
+    margin-left:    0px;
+    text-indent: 20px;
+}
+.sub-item:hover .sub-link {
+    color: red;
+    background-color: #6699FF;
+}
+.content{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #fff;
+	padding-top: 50px;
+}
+.grade-list{
+	padding-left: 20px;
+	color: #FF0004; 
+}
+table{
+	width: 98%;
+	text-align: center;
+	border-radius:5px;
+}
+table,th,td{
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	padding: 15px;
+	
+}
+#nut{
+	background-color: #6699FF; 
+	border: #6699FF; 
+	padding: 5px;
+	border-radius: 5px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #AFC2FF;
+    border-top: 1px solid #fff;
+}
+.welcome-page{
+    height: 200px;
+    width: 40%;
+    float: left;
+    font-family: SF mono;
+    font-size: 15px;
+}
+.logo-school{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    margin-top: 10px;
+}
+.paragraph{
+    width: 100%;
+    height: 80px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.link-contact{
+    height: 200px;
+    width: 30%;
+    float: left;
+}
+.contact-title{
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+    padding-left: 10px;
+	padding-top: 10px;
+    font-family: SF mono;
+}
+.contact-content{
+    width: 100%;
+    height: 150px;
+}
+.contact-menu{
+    list-style-type: none;
+}
+.contact-item{
+    padding: 7px;
+}
+.contact-link{
+    text-decoration: none;
+    color: #000;
+    font-family: SF mono;
+}
+.contact-link:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+.detail-contact{
+    height: 200px;
+    width: 30%;
+    float: left;
+}
+.contact-par{
+    height: 150px;
+    width: 100%;
+}
+.contact-info{
+    padding-left: 10px;
+    padding-bottom: 7px;
+    font-family: SF mono;
+}
+.contact-phone{
+    padding-left: 10px;
+    padding-bottom: 7px;
+    font-family: SF mono;
+}
+.contact-email{
+    padding-left: 10px;
+    padding-bottom: 7px;
+    font-family: SF mono;
+}
+.source {
+    width: 100%;
+    height: 50px;
+    background-color: #F5F5F5   ;
+}
+.source-content {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: SF mono;
+}
+

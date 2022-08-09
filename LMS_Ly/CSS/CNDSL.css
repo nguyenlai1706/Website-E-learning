@@ -1,0 +1,190 @@
+body {
+    background-image: url(../Image/430fd378907c0002e0e2b36c8940a5fbTF57OV\(3\).jpg);
+}
+.form-login {
+    width: 700px;
+    height: 750px;
+    background-color:darkgrey;
+    margin-top: 50px;
+    margin-left: 250px;
+    padding-left: 30px;
+    border-radius: 10px;
+    
+}
+.logo-school{
+    height: 150px;
+    width: 100%;
+}
+.img_logo {
+    margin-top: 20px;
+}
+.title-login{
+    font-family: SF mono;
+    text-align: center;
+    font-weight: bold;
+   
+}
+.login-form{
+    width: 100%;
+    height: 300px;
+}
+.tenlop{
+    width: 100%;
+    height: 50px;
+}
+.input-form{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.fa-user, .fa-key {
+    font-size: 25px;
+}
+.input-tenlop{
+    font-size: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 399px;
+    font-family: SF mono;
+    text-indent: 10px;
+}
+#t{
+	float: right;
+	padding-right: 100px;
+	padding-top: 7px;
+	color: red;
+}
+.input-tenlop::placeholder {
+    font-family: SF mono;
+    font-size: 15px;
+    opacity: 0.5;
+    text-indent: 10px;
+    line-height: 20px;
+}
+.malop{
+    width: 100%;
+    height: 50px;
+}
+.input-malop {
+    font-size: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 399px;
+    font-family: SF mono;
+    text-indent: 10px;
+}
+#m{
+	float: right;
+	padding-right: 100px;
+	padding-top: 7px;
+	color: red;
+}
+.input-malop::placeholder {
+    font-size: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 399px;
+    font-family: SF mono;
+    text-indent: 10px;
+}
+.input-siso {
+    font-size: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 399px;
+    font-family: SF mono;
+    text-indent: 10px;
+}
+#sis{
+	float: right;
+	padding-right: 100px;
+	padding-top: 7px;
+	color: red;
+}
+.input-siso ::placeholder {
+    font-size: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 399px;
+    font-family: SF mono;
+    text-indent: 10px;
+    
+    
+}
+.input-mkl {
+    font-size: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 399px;
+    font-family: SF mono;
+    text-indent: 10px;
+    
+}
+#mk{
+	float: right;
+	padding-right: 100px;
+	padding-top: 7px;
+	color: red;
+}
+.input-mkl ::placeholder {
+    font-size: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 399px;
+    font-family: SF mono;
+    text-indent: 10px;
+    
+    
+}
+.input-mgv {
+    font-size: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 399px;
+    font-family: SF mono;
+    text-indent: 10px;
+	margin-left: 45px;
+}
+#mgv{
+	float: right;
+	padding-right: 100px;
+	padding-top: 7px;
+	color: red;
+}
+.input-mgv ::placeholder {
+    font-size: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 399px;
+    font-family: SF mono;
+    text-indent: 10px;
+    
+}
+.submit-themlop {
+    width: 60%;
+    height: 50px;
+}
+.submit-form {
+    margin-top: 10px;
+    margin-left: 240px;
+}
+.submit-btn {
+    width: 88%;
+    height: 35px;
+    border-radius: 10px;
+    background-color:aquamarine;
+    font-weight: bold;
+    font-family: SF mono;
+    font-size: 15px;
+}
+.back-page {
+    width: 100%;
+    padding-left: 20px;
+    height: 20px;
+}
+.back-page__link {
+    text-decoration: none;
+    color: #000;
+    font-family: SF mono;
+    font-size: 15px;
+    font-style: italic;
+}

@@ -1,0 +1,347 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/* index.html */
+.container-fluid{
+    width: 100%;
+    height: 1250px;
+}
+.website-header{
+    width: 100%;
+    height: 150px;
+    background-color: #F5F5F5;
+}
+.website-name{
+    width: 100%;
+    height: 100px;
+}
+.website-name__main{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: SF mono;
+}
+.website-name__sub{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: SF mono;
+}
+.user-login{
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+}
+.user-login:hover {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #00C;	
+}
+.user-avatar {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+.avatar {
+    font-size: 25px;
+    position: absolute;
+    right: 180px;
+    top: 12px;
+}
+span{
+    text-align: center;
+}
+.menu-bar{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #fff;
+    background-color: #B1C3FD;
+}
+.menu-bar-down {
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    float: left;
+
+}
+/* .menu-bar-option {
+    width: 40%;
+    height: 100%;
+    list-style-type: none;
+    float: left;
+} */
+.menu-item {
+    display: inline-block;
+    line-height: 50px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.menu-item__link {
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+    font-family: SF mono;
+}
+.menu-item__link:hover {
+    color: tomato;
+}
+.menu-item-right {
+    display: inline-block;
+    line-height: 50px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.menu-item-right__link {
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+    font-family: SF mono;
+}
+.menu-item-right__link:hover {
+    color: tomato;
+}
+.sub-menu{
+    list-style-type: none;
+    width: 350px;
+    z-index: 1;
+}
+.sub-link {
+    color: #000;
+    font-family: SF mono;
+}
+.sub-link:link{
+    color: #fff;
+    text-decoration: none;
+}
+.sub-link:hover {
+    color: tomato;
+    text-decoration: none;
+}
+.menu-item-right > .sub-menu {
+    display: none;
+}
+.menu-item-right .sub-menu .sub-link {
+    clear: both;
+}
+.menu-item-right:hover .sub-menu {
+    display: block;
+    position: absolute;
+    left: 1000px;
+    background-color: #AFC2FF;
+    margin: 0;
+}
+.menu-item-right:hover .sub-menu .sub-item .sub-link:link {
+    display: block;
+    margin-left:    0px;
+    text-indent: 20px;
+}
+.sub-item:hover .sub-link {
+    color: red;
+    background-color: #6699FF;
+}
+.content{
+    width: 100%;
+    height: 800px;
+    border-top: 1px solid #fff;
+    font-family: SF mono;
+}
+.title-result {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.content-result {
+    width: 100%;
+    height: 750px;
+}
+.title-doTest {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+.doTest-content {
+    width: 100%;
+    height: 750px;
+    margin-top: 10px;
+}
+#frmTest {
+	width: 100%;
+	height: 750px;
+}
+.resultTest {
+    width: 100%;
+    height: 150px;
+    margin-top: 40px;
+    border-top: 1px solid #000;
+}
+.spacing {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.btn-confirm {
+    text-align: center;
+    margin-top: -10px;
+}
+.btn-reset {
+    margin-left: 700px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #AFC2FF;
+    border-top: 1px solid #fff;
+}
+.welcome-page{
+    height: 200px;
+    width: 40%;
+    float: left;
+    font-family: SF mono;
+    font-size: 15px;
+}
+.logo-school{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    margin-top: 10px;
+}
+.paragraph{
+    width: 100%;
+    height: 80px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.link-contact{
+    height: 200px;
+    width: 30%;
+    float: left;
+}
+.contact-title{
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: SF mono;
+}
+.contact-content{
+    width: 100%;
+    height: 150px;
+}
+.contact-menu{
+    list-style-type: none;
+}
+.contact-item{
+    padding: 7px;
+}
+.contact-link{
+    text-decoration: none;
+    color: #000;
+    font-family: SF mono;
+}
+.contact-link:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+.detail-contact{
+    height: 200px;
+    width: 30%;
+    float: left;
+}
+.contact-par{
+    height: 150px;
+    width: 100%;
+}
+.contact-info{
+    padding-left: 10px;
+    padding-bottom: 7px;
+    font-family: SF mono;
+}
+.contact-phone{
+    padding-left: 10px;
+    padding-bottom: 7px;
+    font-family: SF mono;
+}
+.contact-email{
+    padding-left: 10px;
+    padding-bottom: 7px;
+    font-family: SF mono;
+}
+.source {
+    width: 100%;
+    height: 50px;
+    background-color: #F5F5F5   ;
+}
+.source-content {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: SF mono;
+}
+.title-create {
+	font-weight: bold;	
+}
+.alertResult {
+	color: #F00;
+	width: 100%;
+	height:30px;
+	text-align:center;
+	margin-top: 50px;
+	margin-left: 40px;
+	text-transform:uppercase;	
+	font-weight: bold;
+}
+.titleBuild {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+#frmBuildEssay {
+    width: 100%;
+    height: 680px;
+    padding-top: 20px;
+    margin-top: 10px;
+    border: 10px solid #6699FF;
+    border-radius: 20px;
+}
+#frmBuildMulti {
+    width: 100%;
+    height: 650px;
+    padding-top: 40px;
+    margin-top: 20px;
+    border: 10px solid #6699FF;
+    border-radius: 20px;
+}
+.btn-option {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.btn-option-2 {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+.btn-subject {
+    width: 300px;
+    height: 100px;
+    margin-right: 62px;
+    margin-top: 100px;
+}

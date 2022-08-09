@@ -1,0 +1,65 @@
+.test-content{
+    width: 100%;
+    height: 100%;
+}
+.test-title{
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    font-family: SF mono;
+    text-align: center;
+    font-weight: bold;
+    line-height: 100px;
+}
+.test-line{
+    width: 80%;
+    height: 10px;
+    background-color: #B1C3FD;
+}
+.test-subject{
+    width: 100%;
+    height: 640px;
+    margin-top: 50px;
+    font-family: SF mono;
+}
+.name-subject {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #000;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 50px;
+    font-family: SF mono;
+    border-radius: 10px;
+    background-color: #B1C3FD;
+}
+.btn-subject {
+    margin-left: 30px;
+    width: 200px;
+    height: 100px;
+}
+.title-test {
+    font-family: SF mono;
+    font-weight: bold;
+}
+.btn-test {
+    margin: 20px 40px 30px 30px;
+    width: 400px;
+    font-family: SF mono;
+}
+.btn-close {
+    font-family: SF mono;
+    width: 200px;
+}
+.mainModal_content {
+    width: 1200px;
+    height: 500px;
+}
+.subModal_content {
+	width: 1200px;
+	height: 500px;	
+}
+.test-detail {
+    font-family: SF mono;
+    height: 50px;
+}

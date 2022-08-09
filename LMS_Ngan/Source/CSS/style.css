@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    min-height: 600px;
+}
+
+/* Navbar */
+.navbar-center {
+    justify-content: center;
+}
+
+/* Main */
+.subject__near--access {
+    margin: 8px 16px;
+}
+
+/* List item subject */
+.list {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 48px;
+}
+
+.list__item {
+    border: 2px solid #ccc;
+}
+
+.list__item__sem,
+.list__item__name,
+.list__item__names {
+    margin-top: 8px;
+    margin-left: 16px;
+}
+
+.list__item__name--TenLop {
+    margin-top: -8px;
+}
+
+.list__item__btn--access {
+    padding: 8px;
+    border: 1px solid #ccc;
+    color: #fff;
+    border-left: 16px;
+}
+
+.btn-access {
+    margin: 8px 16px;
+}
+
+/* Danh sach lop.html */
+.btn__watch--list {
+    float: right;
+    margin-right: 186px;
+}
+
+.btn__confirm {
+    float: right;
+    margin-right: 46px;
+}
+
+/* Tổ trưởng */
+.d-block {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.wid-row__full {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.container__list-question {
+    width: 90%;
+    margin-top: 32px;
+}
+
+.container__list-choice {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-title {
+    margin-right: 545px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.block-question {
+    padding: 16px;
+}
+
+.block-question__heading {
+    font-weight: 500;
+}
+
+.block-question__heading,
+.block-question__answer {
+    font-size: 22px;
+}
+
+.heading__wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 32px;
+}
+
+.heading__select {
+    margin-right: 8px;
+}
+
+#check1 {
+    margin-left: 113px;
+    margin-top: 65px;
+}
